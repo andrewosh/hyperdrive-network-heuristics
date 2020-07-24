@@ -1,4 +1,4 @@
-module.exports = function applyHeuristics (drive, networker) {
+module.exports = async function applyHeuristics (drive, networker) {
   if (!drive.writable) {
     const networkConfig = await networker.status(drive.discoveryKey)
     if (!networkConfig) await networker.configure(drive.discoveryKey, { announce: false, lookup: true, remember: false })
