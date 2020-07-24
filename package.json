@@ -1,6 +1,6 @@
 {
   "name": "hyperdrive-network-heuristics",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Networking heuristics for announcing Hyperdrives on Hyperswarm.",
   "main": "index.js",
   "scripts": {
